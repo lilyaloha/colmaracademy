@@ -1,1 +1,66 @@
-/* Universal Styles */
+/* UNIVERSAL STYLES */
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/* HEADER */
+
+header {
+    height: 64px;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+
+.flex-container img { 
+    height: 2em;
+    padding-left: 24px;
+    
+}
+
+.colmar {
+    font-weight: 700;
+    font-size: 2em;
+    color: #3b3a30;
+  }
+
+.academy {
+    font-weight: 700;
+    font-size: 2em;
+    color: #b2c2bf;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 8px;
+}
+
+
+nav span {
+    display: inline-block;
+    padding-right: 1em;
+}
+   
+
+nav a {
+    color: #3b3a30;
+    text-decoration: none;
+}
+
+a:hover {
+     color: greenyellow;
+}
