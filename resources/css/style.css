@@ -59,6 +59,7 @@ nav span {
 nav a {
     color: #3b3a30;
     text-decoration: none;
+    transition-duration: 750ms;
 }
 
 a:hover {
