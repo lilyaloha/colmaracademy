@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLES */
+/* Universal Styles */
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -12,7 +12,7 @@ body{
     
 }
 
-/* HEADER */
+/* Header Section */
 
 header {
     height: 64px;
@@ -25,7 +25,7 @@ header {
 }
 
 
-.flex-container img { 
+header img { 
     height: 2em;
     padding-left: 24px;
     
@@ -65,3 +65,36 @@ nav a {
 a:hover {
      color: greenyellow;
 }
+
+/* Banner Section */
+
+.main {
+    width: 1200px;
+    padding-top: 4.375em;
+    margin: auto;
+}
+
+#banner .content {
+    background-color: lightgray;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    
+}
+
+#banner img {
+    padding: 2em 1.5em;
+    float: left;
+    width: 60%;
+}
+
+#banner h1 {
+    font-weight: 700;
+    color: #3b3a30;
+}
+
+#banner h2 {
+    color: #3b3a30;
+    font-weight: 500;
+}
+
