@@ -1,15 +1,15 @@
 /* Universal Styles */
-body{
+body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 0;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
 
 /* Header Section */
@@ -62,23 +62,34 @@ nav a {
     transition-duration: 750ms;
 }
 
-a:hover {
+nav a:hover {
      color: greenyellow;
 }
 
 /* Banner Section */
 
 .main {
-    width: 1200px;
     padding-top: 4.375em;
     margin: auto;
+}
+
+.flex-container .content{
+    display: flex;   
+}
+
+.flex-container .caption {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #banner .content {
     background-color: lightgray;
     text-align: center;
-    margin: 0;
     align-items: center;
+    margin: 0;
+    width: 100%;
     
 }
 
@@ -91,10 +102,22 @@ a:hover {
 #banner h1 {
     font-weight: 700;
     color: #3b3a30;
+
 }
 
 #banner h2 {
     color: #3b3a30;
     font-weight: 500;
+    margin-bottom: 2.8em;
 }
 
+#banner a {
+    background-color: #3b3a30;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0.5em 5em;
+    text-decoration: none;
+
+}
