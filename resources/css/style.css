@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+.flex-container .content{
+    display: flex;   
+}
+
 /* Header Section */
 
 header {
@@ -73,9 +77,7 @@ nav a:hover {
     margin: auto;
 }
 
-.flex-container .content{
-    display: flex;   
-}
+
 
 .flex-container .caption {
     flex-direction: column;
@@ -119,5 +121,46 @@ nav a:hover {
     text-align: center;
     padding: 0.5em 5em;
     text-decoration: none;
+}
 
+/* Information Section*/
+
+#information .flex-container {
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;   
+    
+}
+
+#information .quote {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1.5em;
+    width: 60%;
+}
+
+#information img {
+    width: 100%;
+}
+
+#information h1{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem; 
+    color: #3b3a30;
+}
+
+#information q {
+    color: #484f4f;
+    
+}
+
+#information p{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #454140;
+}
+
+#information .orientation {
+    width: 40%;
 }
