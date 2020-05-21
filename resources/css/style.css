@@ -16,6 +16,10 @@ body {
     display: flex;   
 }
 
+h1,h2,h3,p {
+    color: #3b3a30;
+}
+
 /* Header Section */
 
 header {
@@ -126,7 +130,7 @@ nav a:hover {
 #information .flex-container {
     align-items: center;
     flex-wrap: wrap;
-    margin: 0;
+    padding-bottom: 2rem;
     
 }
 
@@ -233,6 +237,12 @@ li {
     padding-top: 0.5em;
 }*/
 
+/* Course Section*/
+
+#course { 
+    background-color: lightgray;
+}
+
 #course h1 {
     padding: 1em 0 1em 0;
     text-align: center;
@@ -240,10 +250,119 @@ li {
     margin: 0;
 }
 
-#course .flex-container {
+.contents-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.contents-box {
+	margin-bottom: 2rem;
+	width: 26%;
+	background-color: #f0f0f0;
+}
+
+.contents-box img {
+	display: block;
+	margin-bottom: 1rem;
+	width: 100%;
+	height: auto;
+}
+
+.contents-box h3 {
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: 0;
     
 }
 
-#course .content {
+.contents-box p { 
+    padding: 0 1rem 0.5rem 1rem;
+    margin: 0;
+}
+
+#course .contents-text {
+    padding: 1rem;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	.contents-wrap {
+		flex-direction: column;
+	}
+
+	.contents-box {
+		width: 100%;
+	}
+}
+
+/*Thesis section*/
+
+#thesis h1 {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    color: #3b3a30;
+    margin: 0;
+}
+
+#thesis video {
+    width: 60%;
+    padding: 1.5px;
+} 
+
+
+.flex-container .column {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+#thesis h2 {
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#thesis p {
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    display: flex;
+    white-space: normal;
+}
+
+#thesis img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.flex-container .fisma {
     background-color: lightgray;
 }
+
+/* Footer */
+
+footer {
+    padding: 1rem 1.5rem;
+    width: 100%;
+    margin: 0;
+    border-top: 0.3px solid rgb(233, 227, 227)
+
+}
+
+footer nav span {
+    display: inline-block;
+    align-items: center;
+}
+
+footer nav {
+    text-align: right;
+    
+}
+
+footer a {
+    text-decoration: none;
+    align-items: center;
+}
+
